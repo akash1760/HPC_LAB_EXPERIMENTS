@@ -9,7 +9,7 @@ int main() {
     #pragma omp parallel
     {
         int thread_id = omp_get_thread_num(); // Get the current thread's ID
-        printf("Hello from thread %d: My name is Anuj\n", thread_id);
+        printf("Hello from thread %d: My name Is AKASH\n", thread_id);
     }
 
     return 0;
